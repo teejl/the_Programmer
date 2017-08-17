@@ -43,7 +43,7 @@ Directory Types
      
        Lawn Mowing [Folder]
         
-            2017 05-01_Lawn Mowing_Workbook.xlsx
+           
             
             2017 04-01_Lawn Mowing_Workbook.xlsx
             
