@@ -42,16 +42,25 @@ Directory Types
      An example of how the file names would look for a task called Lawn Mowing could be as follows:
      
         Lawn Mowing [Folder]
+        
             2017 05-01_Lawn Mowing_Workbook.xlsx
+            
             2017 04-01_Lawn Mowing_Workbook.xlsx
+            
             2017 03-01_Lawn Mowing_Workbook.xlsx
+            
             2017 02-01_Lawn Mowing_Workbook.xlsx
+            
             2017 01-01_Lawn Mowing_Workbook.xlsx
             
             Archive [Folder]
+            
                 2016 12-01_Lawn Mowing_Workbook.xlsx
+                
                 2016 11-01_Lawn Mowing_Workbook.xlsx
+                
                 2016 10-01_Lawn Mowing_Workbook.xlsx
+                
                 ...
                 
                 
