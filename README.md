@@ -41,7 +41,7 @@ Directory Types
      
      An example of how the file names would look for a task called Lawn Mowing could be as follows:
      
-        Lawn Mowing [Folder]
+       Lawn Mowing [Folder]
         
             2017 05-01_Lawn Mowing_Workbook.xlsx
             
@@ -54,7 +54,7 @@ Directory Types
             2017 01-01_Lawn Mowing_Workbook.xlsx
             
             
-            Archive [Folder]
+           Archive [Folder]
             
                 2016 12-01_Lawn Mowing_Workbook.xlsx
                 
