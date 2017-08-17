@@ -47,11 +47,13 @@ Directory Types
             2017 03-01_Lawn Mowing_Workbook.xlsx
             2017 02-01_Lawn Mowing_Workbook.xlsx
             2017 01-01_Lawn Mowing_Workbook.xlsx
+            
             Archive [Folder]
                 2016 12-01_Lawn Mowing_Workbook.xlsx
                 2016 11-01_Lawn Mowing_Workbook.xlsx
                 2016 10-01_Lawn Mowing_Workbook.xlsx
                 ...
+                
                 
     As we can see the most recent files are on top whenever we sort the folders by name. As the list grows old the files stack towards the bottom. As the stack grows long we simply dump the lower end of the stack into the Archive folder. The Archive folder holds all of the prior files. They are sorted by date so there is a way to navigate around the folder.
     
