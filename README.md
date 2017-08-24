@@ -72,3 +72,13 @@ As far as I know Microsoft hasn't implemented a method to shift the name to wher
 This so far is my favorite way to name my financial reports. The reason is becaue it is super organized and it allows growth for optimizing each task. By splitting each folder into each task I must do it helps me keep all of my thoughts in one place. Of course the best way to organize data imo is on one big server and then pulling the report directly. However this can take very long for each report to pull. Thus this is the machine learning way of doing the report. It is quicker, but it lacks flexibility.
     
 One day I would like to build a system where the information is in one place and any analysis I would like to pull can be pulled directly from the server. Like running a report with an sql statement. But I need the report to have pictures. Everything just makes more sense with pictures right?
+
+## My Vision
+
+As I continue my journey into programming I notice that choosing the language is sometimes the most difficult part. Personally I am a fan of Python, but that is because it is free software. There are also great options like VBA because in the workplace everyone uses Excel. Identifying the correct programming language comes down to what is the purpose of the language? 
+
+I am not writing to display the number of purposes out there for each language, for if I did I would surely miss many purposes. A lot of the languages can achieve the same job. Instead I am hear to present my purpose as a motivation to other programmers out there in the Universe. 
+
+My purpose is simple: I want the computer to work for me to stimulate my intellectual mind. That is, any redundant and mundane task I have I want to be able to create a computer to do it for me. I will be in control of making the decisions of what information to gather, what decisions to make based off the information, and the methods to perform on the set of data. However gathering the information, presenting the information, and manually calculating the information is up to my expertise as a programmer.
+
+I have a vision that I can one day achieve this potential with my programming. I have started to learn UiPath, and I will continue to tie together my programming language to hopefully create such a machine that will be at my will. I fear that job opportunities will be lost. They wouldn't have been fun jobs though.
