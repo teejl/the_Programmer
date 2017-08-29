@@ -96,37 +96,24 @@ Goal: The purpose of this program is to take a csv file with the listedstock ind
 
 
 -# Import all the external packages
-
-import pandas as pd
-
-import matplotlib.pyplot as plt
-
-import scipy as spimport numpy as np
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    import scipy as spimport numpy as np
 
 
 -# Read the CSV File
-
-data = pd.read_csv("C:/Users/80053507/Stocks/Stock Data.csv")
-
+    data = pd.read_csv("C:/Users/80053507/Stocks/Stock Data.csv")
 
 -# Add the average and std to the Table
-
-data.loc["AVG"] = data.mean(axis=0)
-
-data.loc["STD"] = data.std(axis=0)
-
+    data.loc["AVG"] = data.mean(axis=0)
+    data.loc["STD"] = data.std(axis=0)
 
 -# Print the data table
-
-print(data)
-
+    print(data)
 
 -# Plot the value of the portfolio
-
-plt.plot(data.drop("AVG").drop("STD").loc[:,"Total"])
-
-plt.ylabel("Value")
-
-plt.show()
+    plt.plot(data.drop("AVG").drop("STD").loc[:,"Total"])
+    plt.ylabel("Value")
+    plt.show()
 
 I want to mention that I have made a UiPath script that will retrieve stock prices for each of the indexes I have chosen automatically. I am retrieving the open price for each stock, and plan on tracking the prices over time to see where I would be through a portfolio simulation. It is tough to do a simulation since it take a lot of patience.
