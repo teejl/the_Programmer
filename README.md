@@ -82,3 +82,37 @@ I am not writing to display the number of purposes out there for each language, 
 My purpose is simple: I want the computer to work for me to stimulate my intellectual mind. That is, any redundant and mundane task I have I want to be able to create a computer to do it for me. I will be in control of making the decisions of what information to gather, what decisions to make based off the information, and the methods to perform on the set of data. However gathering the information, presenting the information, and manually calculating the information is up to my expertise as a programmer.
 
 I have a vision that I can one day achieve this potential with my programming. I have started to learn UiPath, and I will continue to tie together my programming language to hopefully create such a machine that will be at my will. I fear that job opportunities will be lost. They wouldn't have been fun jobs though.
+
+## Python Stock Tracker
+
+I have begun some programming with python and UiPath to track stock prices and simulate my custom portfolio. This is what I have so far:
+
+'''
+Stock Analylzer
+Thomas Lockwood
+8/29/2017
+Goal: The purpose of this program is to take a csv file with the listedstock index and the price at some given time. There will be a time linefor each stock index. I plan to calculate the volatility, average, andany additional historical data that I can think of. My goal is to simulatea "mock" stock trade to practice for the real dill.
+'''
+
+
+-# Import all the external packages
+import pandas as pd
+import matplotlib.pyplot as plt
+import scipy as spimport numpy as np
+
+-# Read the CSV File
+data = pd.read_csv("C:/Users/80053507/Stocks/Stock Data.csv")
+
+-# Add the average and std to the Table
+data.loc["AVG"] = data.mean(axis=0)
+data.loc["STD"] = data.std(axis=0)
+
+-# Print the data table
+print(data)
+
+-# Plot the value of the portfolio
+plt.plot(data.drop("AVG").drop("STD").loc[:,"Total"])
+plt.ylabel("Value")
+plt.show()
+
+I want to mention that I have made a UiPath script that will retrieve stock prices for each of the indexes I have chosen automatically. I am retrieving the open price for each stock, and plan on tracking the prices over time to see where I would be through a portfolio simulation. It is tough to do a simulation since it take a lot of patience.
