@@ -17,7 +17,7 @@ import scipy as sp
 import numpy as np
 
 # Read the CSV File
-data = pd.read_csv("C:/Users/80053507/Stocks/Stock Data.csv")
+data = pd.read_csv("/Stock Data.csv")
 
 # Add the average and std to the Table
 data.loc["AVG"] = data.mean(axis=0)
