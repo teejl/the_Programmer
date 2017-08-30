@@ -52,6 +52,9 @@ My purpose is simple: I want the computer to work for me to stimulate my intelle
 
 I hope to one day achieve the potential to leverage my programming to maximum intellectual insight.
 
+A very helpful line for installing python packages:
+    >>py -m pip install {package}
+
 ## Python Stock Tracker
 
 I have begun some programming with Python and UiPath to track stock prices and simulate my custom portfolio.
