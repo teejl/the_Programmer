@@ -8,7 +8,7 @@ A directory is very important to a programmer. It is his library. His list of fi
 Task-Oriented Directory
     A task oriented Directory is a directory that organizes all of the files based on some different tasks. Let us call this TO-D style directories for short. A TO-D style directory is good for a work scenario. The beauty of this type of Directory is that we can name the files and folders based on given dates. So whenever the files are sorted they can be sorted by the date they are produced for. Furthermore whenever these files/folders are sorted by name the most recent folder/file is on top. The older files are on the bottom and the list goes on. As the list grows large we can create an "Archive" folder at the bottom. We can then chop the list to any size that we feel by putting the excess files/folders into the archive folder. Hopefully they will be files so there will be less of a f.legnth(). Then the files will be sorted within the archive folder if any older dated files need to be retrieved. How exciting!
      
-     An example of how the file names would look for a task called Lawn Mowing could be as follows:
+   An example of how the file names would look for a task called Lawn Mowing could be as follows:
      
        Lawn Mowing [Folder]
         
