@@ -67,3 +67,7 @@ I have just recently found out that there is a googlefinance package for python.
 My next move is to start reading "Python for Finance". It is sponsored by the Python Quants Group. I am very interested in one day participating in the program, but before I make such a commitment I want to know where I stand with Python for Finance.
 
 On the side I will keep running my ratchet UiPath and Python stock tracker. There are always insights to be made mathematically despite the lack of programming knowledge.
+
+## TPQ
+
+The python quants have great resources to learn more python and financial mathematics. I have started to post the progress with my lessons. I have learned so much in the past week. It has completely reconstructed the way I gather data, and my methods for analyzing whether to buy a stock or not. Most methods seem to be around high frequency trading, but I hope to find one that comes out of low frequency trading.
