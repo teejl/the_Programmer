@@ -71,3 +71,11 @@ On the side I will keep running my ratchet UiPath and Python stock tracker. Ther
 ## TPQ
 
 The python quants have great resources to learn more python and financial mathematics. I have started to post the progress with my lessons. I have learned so much in the past week. It has completely reconstructed the way I gather data, and my methods for analyzing whether to buy a stock or not. Most methods seem to be around high frequency trading, but I hope to find one that comes out of low frequency trading.
+
+## Efficient SQL
+
+So I have found a way to speed up SQL queries. Most of the time it isn't too big of an issue to run a program faster, but there are some instances where one can save 10-20minutes of run time due to processing massive data. The key is precision.
+
+The way to use precision to cut down the runtime of a query one must cut out all excess data, and this can be done on the from clause. Any where statement that does not require looking at a different table can be put in the FROM clause instead of the WHERE clause. This changes the way the FROM clause will be worded but it will trim the data significantly. 
+
+By using precision we select only the columns and rows needed for the query. By trimming the data the query runs much faster. I like to see it as carrying 10lb dumbells instead of 45lb dumbells. By trimming the weight we need to travel we will travel faster.
