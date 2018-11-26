@@ -15,3 +15,7 @@ sudo apt-get install git
 #python3 -m pip install pandas
 #python3 -m pip install matplotlib.pyplot
 #python3 -m pip install numpy
+
+# Extra Packages
+python3 -m pip install --user pipenv #shou.d work with python 2.7 as well. try commands "which python" and "python --version"
+# For more information about extra environments use https://docs.python-guide.org/dev/virtualenvs/#virtualenvironments-ref
