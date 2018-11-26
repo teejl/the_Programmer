@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Instructions: To make sure you can run this file type "ls -l" in the command prompt. This will indicate whether you can run the file.
-# The next step is to type "sudo chmod u+x {this file path}"
+# The next step is to type "sudo chmod u+x {this file path}" to enable the execution of this file. Below are the packages that will
+# be installed.
 
 # update apt-get
 sudo apt-get update
