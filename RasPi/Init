@@ -9,7 +9,7 @@ sudo apt-get update
 
 # install programs
 sudo apt-get install python3
-# sudo apt-get install git
+sudo apt-get install git
 
 # Python 3 Packages Here
 #python3 -m pip install pandas
