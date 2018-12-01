@@ -10,11 +10,12 @@ sudo apt-get update
 # install programs
 sudo apt-get install python3
 sudo apt-get install git
+sudo apt-get install ssh
 
 # Python 3 Packages Here
-#python3 -m pip install pandas
-#python3 -m pip install matplotlib.pyplot
-#python3 -m pip install numpy
+#sudo python3 -m pip install pandas [~sudo pip3 install pandas (Equivalent syntax)] 
+#sudo python3 -m pip install matplotlib.pyplot
+#sudo python3 -m pip install numpy
 
 # Extra Packages
 python3 -m pip install --user pipenv #shou.d work with python 2.7 as well. try commands "which python" and "python --version"
