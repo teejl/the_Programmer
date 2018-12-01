@@ -4,7 +4,14 @@
 # Basic Tutorial
 # https://www.raspberrypi.org/documentation/linux/usage/users.md
 # --- Start to Basic Tutorial Here --- [Logged Commands]
-# Logged Below:
+
+# BECOMING SUPER USER
+# sudo <command>
+# sudo su
+# su (with password)
+# exit (to leave su)
+
+# ADDING USER:
 # sudo adduser teej
 # type: passwd
 # type: passwd
@@ -15,5 +22,14 @@
 # <enter>
 # Y
 
-
-
+# RESTRICTING ACCESS TO PARTICULAR USERS:
+# https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file-on-ubuntu-and-centos
+# sudo visudo (To edit the groups with access and rootpaths (init of accesses))
+# sudo usermod -aG sudo username (add teej as a sudo user)
+# sudo gpasswd -a username sudo (apparently same as above but this seemed to be better than above)
+# [The articles then moves on to talklke about groups aand access for these groups] - I will skip this step
+# The access often talks about moving to the /usr/bin/ file path. This seems to be where all the executables are located
+# an example of a file here is apt-get, python3, git, and just about everything else.
+# path for users: /home/
+# sudo -config [for commands]
+# 
