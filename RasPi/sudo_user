@@ -1,6 +1,10 @@
 # I will start by using the link instructions below to create a super user and block access to root user
 # https://www.raspberrypi.org/documentation/linux/usage/root.md
 
+# Interesting Notes:
+# whenever one types a command in the terminal the /usr/bin/ is called ex: -> pip; executes /usr/bin/pip
+# the users are stored /home/
+
 # Basic Tutorial
 # https://www.raspberrypi.org/documentation/linux/usage/users.md
 # --- Start to Basic Tutorial Here --- [Logged Commands]
@@ -23,6 +27,13 @@
 # Y
 
 # RESTRICTING ACCESS TO PARTICULAR USERS:
+# https://www.modmypi.com/blog/how-to-change-the-default-account-username-and-password
+# sudo passwd root [set password for root account]
+# <password>
+# <password>
+# exit [used to be logout]
+# 
+# --- failed attempt ---
 # https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file-on-ubuntu-and-centos
 # sudo visudo (To edit the groups with access and rootpaths (init of accesses))
 # sudo usermod -aG sudo username (add teej as a sudo user)
@@ -32,4 +43,7 @@
 # an example of a file here is apt-get, python3, git, and just about everything else.
 # path for users: /home/
 # sudo -config [for commands]
-# 
+# sudo raspi-config [to config with setup] - user friendly
+# --- failed attempt --- 
+
+
