@@ -1,0 +1,10 @@
+sudo adduser teej # create user teej
+sudo passwd teej # init password for teej
+# <password>
+# <password>
+sudo adduser teej sudo # add teej to sudo users
+
+# optional (delete pi user and default to teej)
+# su teej
+# <password>
+# sudo deluser pi
