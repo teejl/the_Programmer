@@ -1,3 +1,19 @@
+# I will start by using the link instructions below to create a super user and block access to root user
 # https://www.raspberrypi.org/documentation/linux/usage/root.md
-# I will be using the above link instructions to create a super user
+
+# Basic Tutorial
+# https://www.raspberrypi.org/documentation/linux/usage/users.md
+# --- Start to Basic Tutorial Here --- [Logged Commands]
+# Logged Below:
+# sudo adduser teej
+# type: passwd
+# type: passwd
+# <enter>
+# <enter>
+# <enter>
+# <enter>
+# <enter>
+# Y
+
+
 
