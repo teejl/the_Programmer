@@ -1,0 +1,11 @@
+# How to sign in to git
+sudo git config --global user.name = <username>
+sudo git config --global user.email = <email>
+
+# clone repo
+git clone https://github.com/teejl/<repository.git>
+
+# save repo
+git add .
+git commit -m <string message>
+git push origin master
