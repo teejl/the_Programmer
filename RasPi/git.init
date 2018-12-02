@@ -1,4 +1,5 @@
 # How to sign in to git
+# https://18f.gsa.gov/2015/03/03/how-to-use-github-and-the-terminal-a-guide/
 sudo git config --global user.name = <username>
 sudo git config --global user.email = <email>
 
