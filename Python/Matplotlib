@@ -1,0 +1,13 @@
+# Import matplotlib
+import matplotlib.pyplot as plt
+
+# Use a list as input to plot
+x = []
+y = []
+
+# Types of graphs
+plt.plot(x, y)
+plt.scatter(x,y)
+
+# Show the plot
+plt.show()
