@@ -6,15 +6,21 @@
 import numpy as np
 import pandas as pd
 import datetime as dt
-#from pandas_datareader import data as web #could not connect to server
 import fix_yahoo_finance as yf
 
-start = dt.datetime(2010,1,1)
-end = dt.datetime(2010,1,27)
-end_date = str(dt.date.today())
+# fix dates
+start = str(dt.date(2010,1,1))
+end = str(dt.date.today())
 
-# set up a connection to the stock data
-# df = web.DataReader('AMZN', 'google', start, end) #could not connect to server
-df = yf.download('FXAIX', '2000-01-01', end_date)
-print(df.head())
-print(df.tail())
+# cycle through all of the stock symbols
+symbols = ['FXAIX']
+
+for SYM in symbols:
+	# set up a connection to the stock data
+	print('Pulling ' + SYM + ' stock data from ' + start +  ' to ' + end
+		+ '...')  
+	df = yf.download(SYM, start, end)
+	df['SYM'] = SYM
+
+	# exporting data to csv
+	df.to_csv('data/' + SYM + '-Stock.csv')
