@@ -1,0 +1,26 @@
+# Import Stock Data
+# by Thomas Lockwood
+# 01-24-2019
+
+# import packages
+import numpy as np
+import pandas as pd
+import datetime as dt
+import fix_yahoo_finance as yf
+
+# fix dates
+start = str(dt.date(2010,1,1)end = str(dt.date(2010,1,27))
+end = str(dt.date.today())
+
+# cycle through all of the stock symbols
+symbols = ['FXAIX']
+
+for SYM in symbols:
+	# set up a connection to the stock data
+	print('Pulling ' + SYM + ' stock data from ' + start +  ' to ' + end
+		+ '...')  
+	df = yf.download(SYM, start, end_date)
+	df['SYM'] = SYM
+
+	# exporting data to csv
+	df.to_csv('data/FXAIX-Stock.csv')
