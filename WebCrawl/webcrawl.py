@@ -19,11 +19,14 @@ import re
 # simple example
 
 
+search_word = "Data Science"
+
 # boss battle 
 site = "https://www.amazon.com/s/ref=nb_sb_noss_2?url=search--alias%3Daps&field-keywords=Data+Science&rh=i%3Aaps%2Ck%3AData+Science"
 #site = 'https://www.amazon.com/s/ref=sr_pg_2?rh=i%3Aaps%2Ck%3AData+Science&page=2&keywords=Data+Science&ie=UTF8&qid=1548564295' 
 #site = 'https://www.amazon.com/s/ref=sr_pg_3?rh=i%3Aaps%2Ck%3AData+Science&page=3&keywords=Data+Science&ie=UTF8&qid=1548565321'
 # then hypothetically it would repeat for the rest of the 20 pages
+site = "https://www.amazon.com/s/ref=nb_sb_noss_2?url=search--alias%3Daps&field-keywords=" + search_word.replace(" ", "+") + "&rh=i%3Aaps%2Ck%3A" + search_word.replace(" ", "+") 
 
 # extract data from the site
 html = requests.get(site).text
